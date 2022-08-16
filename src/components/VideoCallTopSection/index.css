@@ -1,0 +1,107 @@
+.video_call_top {
+  margin-top: 10px;
+  display: flex;
+}
+
+.video_call_top__info {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.video_call_top__info > select {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 0;
+  margin-left: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.video-accept-popup {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(33, 35, 37, 1.947);
+  height: 400px;
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.accept-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: lightcyan;
+}
+
+.video-accept-popup-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  max-width: 250px;
+}
+
+.popup-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.video-accept-popup > h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.video-call-response {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-call-response > h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.video-call-response > button {
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.status-list {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.status-list__myStatus {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #00000030;
+}
+
+.status-list > p {
+  padding: 10px;
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+
+.status-list__avatar {
+  position: relative;
+}
+
+.status-list__avatar > button {
+  position: absolute;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: -15px;
+  margin-left: 28px;
+}
+
+.status-list__avatar > .MuiAvatar-root {
+  height: 50px;
+  width: 50px;
+}
+
+.status-list__myStatusInfo {
+  margin-left: 10px;
+}
+
+.status-list__myStatusInfo > h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.status-list__myStatusInfo > p {
+  font-size: 14px;
+  color: gray;
+}
+
+.status-list__list {
+  list-style-type: none;
+  padding: 0px;
+}

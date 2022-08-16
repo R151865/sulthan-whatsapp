@@ -1,0 +1,126 @@
+.header {
+  background-color: #128c7e;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+
+.header__top {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__top > p {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+.header__topRight {
+  display: flex;
+}
+
+.icon-button {
+  color: white;
+  margin-left: 10px;
+}
+
+.header__tabs {
+  display: flex;
+  color: white;
+}
+
+.header__tabs > .MuiSvgIcon-root {
+  padding: 10px;
+  color: white;
+}
+
+.header__tabsButton {
+  border: 0px;
+  outline-width: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+  border-bottom: 3px solid #128c7e;
+  flex: 1;
+}
+.header__tabsButton:hover {
+  transition-delay: 200ms;
+  transition-duration: 300ms;
+  border-bottom: 3px solid white;
+  background-color: #00000030;
+}
+
+.active-tab {
+  border-bottom: 3px solid white;
+}
+
+.popup-content {
+  border-radius: 5px;
+}
+
+.popup__list {
+  flex: 1;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.popup__item {
+  padding: 5px;
+
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.right_top_menu {
+  background-color: white;
+  width: 300px;
+  margin-left: auto;
+  padding: 20px;
+  margin-right: 10px;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+
+.right_top_menu > p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.right_top_menu > button {
+  width: 100%;
+  font-size: 14px;
+  background-color: green;
+  border: 0;
+  color: white;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+
+.right_top_menu > button:hover {
+  background-color: black;
+}
+
+.camera-btn {
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+
+.link-item-camera {
+  text-decoration: none;
+  outline-color: none;
+  color: white;
+}

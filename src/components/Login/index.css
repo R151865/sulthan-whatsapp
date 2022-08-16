@@ -1,0 +1,143 @@
+.login {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.login > .form__login {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.login > .form__login > img {
+  width: fit-content;
+  height: 80px;
+  width: 80px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.login > .form__login > div > label {
+  font-size: small;
+  font-weight: 500;
+}
+
+.login > .form__login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > .form__login > div > input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 45px;
+  font-size: 15px;
+  color: black;
+  padding-left: 15px;
+  outline-width: 0;
+}
+
+.login > .form__login > .form__loginButton {
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+.login > .form__login > .form__loginButton:hover {
+  background-color: black;
+}
+
+.login > .form__login > .form__signupButton {
+  margin-top: 15px;
+  font-size: 15px;
+  color: blue;
+  margin-left: auto;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.login > .form__login > .form__LoginErrorMsg {
+  font-size: 14px;
+  color: red;
+  line-height: 15px;
+  margin-top: 2px;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.signup__form > div > label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.signup__form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.signup__form > div > input {
+  height: 30px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  outline-width: 0px;
+}
+
+.signup__form > .signup__formSubmitButton {
+  font-size: 15px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  outline-width: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.signup__form > .signup__formSubmitButton:hover {
+  background-color: black;
+}
+
+.signup__form > .signup__formSignInButton {
+  margin-top: 10px;
+  font-size: 14px;
+  border: 0;
+  cursor: pointer;
+  margin-left: auto;
+  background-color: transparent;
+  color: green;
+}
+
+.signup__form > .signup__errorMessage {
+  font-size: 14px;
+  color: red;
+  line-height: 15px;
+  margin-top: 2px;
+}

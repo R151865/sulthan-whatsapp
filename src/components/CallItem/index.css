@@ -1,0 +1,34 @@
+.call-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.call-item > .MuiAvatar-root {
+  height: 50px;
+  width: 50px;
+}
+
+.call-list__info {
+  position: relative;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.call-list__info > h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.call-list__info > p {
+  font-size: 15px;
+}
+
+.call-list__info > .MuiIconButton-root {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: green;
+}

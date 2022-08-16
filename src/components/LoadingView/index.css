@@ -1,0 +1,5 @@
+.loading_view {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}

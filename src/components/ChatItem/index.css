@@ -1,0 +1,38 @@
+.link-item {
+  text-decoration: none;
+}
+
+.chats-item {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.chats-item > .MuiAvatar-root {
+  height: 50px;
+  width: 50px;
+}
+
+.chats-item__info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.chats-item__info > h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+.chats-item__info > p {
+  font-size: 16px;
+}
+
+.chats-item__timestamp {
+  font-size: x-small;
+  position: absolute;
+  right: 0px;
+}
